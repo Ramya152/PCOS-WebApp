@@ -189,7 +189,7 @@ fig_cl.update_yaxes(title_text="Median Cycle Length", row=1, col=2)
 
 # Initialize the Dash app
 app = dash.Dash(__name__)
-
+server = app.server
 #app's layout
 app.layout = html.Div(
     style={'backgroundColor': '#f8e8e8', 'padding': '20px'},  #background color and padding
